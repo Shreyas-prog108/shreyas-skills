@@ -336,6 +336,8 @@ async def test_statement_agent_routes_to_extraction_node(mock_llm):
 - never log pii — mask or redact in all log outputs
 - use parameterized queries everywhere — no string interpolation in sql, ever
 - secrets in `.env` locally, secret manager (aws secrets manager / gcp secret manager) in production
+- never read, print, summarize, or edit real env files such as `.env`, `.env.local`, `.env.*.local`, or any file containing live secrets. ask for `.env.example` or an env template instead.
+- when environment variables need changes, provide an improved `.env.example` template with placeholder values. do not modify the user's real `.env`.
 - `.env` is always in `.gitignore` — `.env.example` is committed instead
 
 ### dependency hygiene
