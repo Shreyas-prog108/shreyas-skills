@@ -25,7 +25,7 @@ fast + sloppy creates rework. fast + disciplined is the only mode that compounds
 
 always do this first, every time:
 
-1. read `planning.md` properly before making design or implementation decisions. use it as the source of project context, constraints, and intended direction.
+1. read `planning.md` properly before making design or implementation decisions. use it as the source of project context, constraints, and intended direction. if it does not exist, ask for the project plan or create one from the available spec before coding.
 2. restate the agent's goal in one sentence. if you cannot, ask before proceeding.
 3. list every assumption you are making. write them down explicitly.
 4. define the three most likely failure modes before designing the happy path.

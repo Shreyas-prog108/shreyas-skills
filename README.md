@@ -19,6 +19,35 @@ Original repo: https://github.com/Shreyas-prog108/shreyas-skills.git
 
 ---
 
+## What This Repo Does
+
+This repo gives AI coding tools a shared engineering standard for agentic AI development. The main workflow lives in `coding-skills.md`; tool-specific entrypoints make Claude Code, OpenAI Codex CLI, Cursor, Windsurf, and GitHub Copilot read the same rules automatically.
+
+## Files In This Repo
+
+| File | Purpose |
+|---|---|
+| `coding-skills.md` | Canonical coding workflow and engineering standard |
+| `planning.md` | Project planning template for context before coding |
+| `CLAUDE.md` | Claude Code entrypoint |
+| `AGENTS.md` | OpenAI Codex CLI entrypoint |
+| `.cursorrules` | Legacy Cursor entrypoint |
+| `.cursor/rules/engineering.mdc` | Modern Cursor entrypoint |
+| `.windsurfrules` | Windsurf entrypoint |
+| `.github/copilot-instructions.md` | GitHub Copilot custom instructions |
+
+## Use It In A Project
+
+```bash
+git clone https://github.com/Shreyas-prog108/shreyas-skills.git
+cp shreyas-skills/coding-skills.md your-project/
+cp shreyas-skills/planning.md your-project/
+```
+
+Then copy the wrapper file for your tool, or copy all wrappers if you switch between tools.
+
+---
+
 ## Part 1 — Karpathy's Four Principles (apply to all coding work)
 
 These four rules govern how I expect AI agents (and myself) to behave when writing code.
