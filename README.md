@@ -6,6 +6,7 @@ Inspired-by: Andrej Karpathy (CLAUDE.md principles + Software 1.0/2.0/3.0 philos
 Stack: Python · FastAPI · LangGraph · LangChain · OpenClaw · VectorDB · AWS · GCP · SQLite · PostgreSQL · NLP · Machine Learning · Agentic AI
 Role: AI/ML Builder
 Updated: 2026-05
+Original-repo: https://github.com/Shreyas-prog108/shreyas-skills.git
 ---
 
 # Sammy's Engineering Skill Framework
@@ -13,6 +14,8 @@ Updated: 2026-05
 A personal skill file for working with AI coding agents, collaborators,
 and future teammates. Derived from project history, Karpathy's four LLM coding principles,
 and a Software 3.0 builder mindset. Anyone can fork and adapt this to their own history.
+
+Original repo: https://github.com/Shreyas-prog108/shreyas-skills.git
 
 ---
 
@@ -83,7 +86,6 @@ failure mode. An agent with no error handling is a demo, not a product.
 
 ---
 
-
 ### Pillar 2 · Data & ML 〈Foundation〉
 **Status:** Strong
 
@@ -99,7 +101,6 @@ fine-tuned model), and execute on data pipelines. Kaggle competitions are the gy
 - Libraries — scikit-learn, pandas, numpy, HuggingFace Transformers
 
 **Proof of work:**
-
 - Kaggle comment category prediction — macro F1 optimization, TF-IDF + LightGBM/XGBoost
 - Fine-tuned BERT on SQUAD Dataset
 - Cinema Audience Forecasting – Time Series Prediction System
@@ -246,6 +247,7 @@ Source: forrestchang/andrej-karpathy-skills (MIT License) —
 the community CLAUDE.md implementation of Karpathy's observations.
 
 ---
+
 ## If you are interested in hiring me, here you go
 
 - GitHub: https://www.github.com/Shreyas-prog108
@@ -254,3 +256,32 @@ the community CLAUDE.md implementation of Karpathy's observations.
 - LinkedIn: https://www.linkedin.com/in/shreyaspandeyy/
 
 *Fork freely. Adapt honestly. Ship daily.*
+
+---
+
+## AI Coding Tool Support
+
+The canonical engineering workflow lives in `coding-skills.md`. The other files are thin entrypoints so different AI coding tools can automatically pick up the same standard:
+
+| Tool | File |
+|---|---|
+| Claude Code | `CLAUDE.md` |
+| OpenAI Codex CLI | `AGENTS.md` |
+| Cursor legacy | `.cursorrules` |
+| Cursor modern | `.cursor/rules/engineering.mdc` |
+| Windsurf | `.windsurfrules` |
+| GitHub Copilot | `.github/copilot-instructions.md` |
+
+Each tool file points back to `coding-skills.md` and tells the assistant to read `planning.md` when it exists before making design or implementation decisions.
+
+---
+
+## Fork And Adapt
+
+Feel free to fork this repo and adapt it to your own engineering style. Replace the proof-of-work sections with your own projects, change the stack defaults, tune the coding rules, and keep the parts that help your AI tools work with better context.
+
+If you use this in your own projects, keep `coding-skills.md` as the canonical source and let the tool-specific files point back to it. That way Claude Code, Codex CLI, Cursor, Windsurf, and GitHub Copilot all follow the same standard without extra setup.
+
+Build honestly. Document clearly. Ship daily.
+
+Built with ❤️ for open source by [Shreyas Pandey](https://github.com/Shreyas-prog108).
