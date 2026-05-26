@@ -52,3 +52,4 @@ DATABASE_URL=your_database_url_here
 - Tests exist for important logic.
 - No real `.env`, `.env.local`, `.env.*.local`, API key, or secret is read, printed, or committed.
 - The implementation follows `coding-skills.md`.
+

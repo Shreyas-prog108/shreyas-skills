@@ -1,19 +1,8 @@
----
-Name: sammy's-skills
-Version: 1.0.0
-Author: Shreyas Pandey
-Inspired-by: Andrej Karpathy (CLAUDE.md principles + Software 1.0/2.0/3.0 philosophy)
-Stack: Python · FastAPI · LangGraph · LangChain · OpenClaw · VectorDB · AWS · GCP · SQLite · PostgreSQL · NLP · Machine Learning · Agentic AI
-Role: AI/ML Builder
-Updated: 2026-05
-Original-repo: https://github.com/Shreyas-prog108/shreyas-skills.git
----
+# Shreyas Skills
 
-# Sammy's Engineering Skill Framework
+Personal engineering skill framework for agentic AI development. This repo gives AI coding tools and human collaborators a shared standard for planning, building, testing, and shipping agentic AI systems with clear context, simple architecture, explicit state, typed outputs, and production-minded verification.
 
-A personal skill file for working with AI coding agents, collaborators,
-and future teammates. Derived from project history, Karpathy's four LLM coding principles,
-and a Software 3.0 builder mindset. Anyone can fork and adapt this to their own history.
+It is built for developers who use Claude Code, OpenAI Codex CLI, Cursor, Windsurf, or GitHub Copilot and want one consistent engineering standard across all of them.
 
 Original repo: https://github.com/Shreyas-prog108/shreyas-skills.git
 
@@ -45,6 +34,14 @@ cp shreyas-skills/planning.md your-project/
 ```
 
 Then copy the wrapper file for your tool, or copy all wrappers if you switch between tools.
+
+---
+
+# Sammy's Engineering Skill Framework
+
+A personal skill file for working with AI coding agents, collaborators,
+and future teammates. Derived from project history, Karpathy's four LLM coding principles,
+and a Software 3.0 builder mindset. Anyone can fork and adapt this to their own history.
 
 ---
 
