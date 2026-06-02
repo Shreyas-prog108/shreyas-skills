@@ -49,7 +49,8 @@ DATABASE_URL=your_database_url_here
 
 - The core workflow works for the happy path.
 - The main failure modes are handled.
-- Tests exist for important logic.
+- Custom tests exist for the behavior shipped — not generic placeholders.
+- The one-command test script passes (see project readme or `make test` / `./scripts/test.sh` / equivalent).
 - No real `.env`, `.env.local`, `.env.*.local`, API key, or secret is read, printed, or committed.
 - The implementation follows `coding-skills.md`.
 
